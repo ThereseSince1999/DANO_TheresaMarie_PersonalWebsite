@@ -49,6 +49,42 @@
               clear: both;
           }
 
+          #number
+          {
+            font: 14px Baskerville, "Palatino Linotype", "Times New Roman", Times, serif;
+               font-weight:bold;
+               color:white;
+               font-size:25px;
+          }   
+
+          input[type=text],  textarea 
+          {
+                width: 50%; 
+                 padding: 12px; 
+                 border-radius: 4px; 
+                 box-sizing: border-box; 
+                 margin-top: 6px; 
+                 margin-bottom: 16px; 
+                 resize: vertical 
+          }
+
+          input[type=submit]
+           {
+              background-color:lightslategrey;
+              color: white;
+              padding: 12px 20px;
+              border: none;
+              border-radius: 4px;
+              cursor: pointer;
+            }
+
+
+          input[type=submit]:hover 
+          {
+              background-color:dimgray;
+          }
+
+
         
   	  </style>
               
@@ -74,15 +110,24 @@
           <div class="column">
 
               <div id="background2">
-
-                                  
+                   
+                  <center><p id="number">2|<p id="about">Send a Message</p> <center>
+                      
+                      <form action="mailto:danotheresamarie@gmail.com" method="post" enctype="text/plain">
+                        Name:<br>
+                        <input type="text" name="name"><br>
+                        E-mail:<br>
+                        <input type="text" name="mail"><br>
+                         Message:<br>
+                        <textarea id="subject" name="subject" placeholder="Write something.." style="height:150px"></textarea><br>
+                        <input type="submit" value="Send">
+                        </form>          
+                
                             
-                             </div>
-
-
+                          </div>
 
           </div>
-        </div>
+        
 
 
      
