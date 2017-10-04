@@ -6,14 +6,16 @@
         <meta http-equiv="X-UA-Compatible" content="IE=9" />
 
       <style>
-          body{
-		
+           body
+           {
                  font-family: arial, sans-serif;
                  margin:0;
-	             padding:0;
-	  }
-
-          #background1{
+                 padding:0;
+                 font: 14px Baskerville, "Palatino Linotype", "Times New Roman", Times, serif;
+                 color: #F7F7F7;
+           }
+          #background1
+          {
 		            height:5vh;
                 width:100%;
                 background-image: url("images/back3.jpg");
@@ -33,7 +35,88 @@
 		            background-attachment: fixed;
                 
           } 
-         
+
+          div, h1, h2, p
+          {
+		            margin: 0;
+	              padding: 0;
+	       	}
+	
+           #poem 
+             { 
+		           	margin: auto;
+		           	padding: 20px 0;
+		           	text-align: left;
+		           	width: 390px;
+             }
+		
+        h1, h2 
+          {
+			         	font-weight: normal;
+				        text-align: center;
+			   	}
+				
+        h1 
+          {
+                font-family:Adreena Script Demo;
+			         	font-size: 34px;
+			        	line-height: 1.2;
+			         	margin-bottom: 10px;
+			    }
+			
+       h2 
+         {
+				        color: #666;
+			         	font-size: 18px;
+			        	font-style: italic;
+			        	margin-bottom: 30px;
+				 }
+				
+       p 
+         {
+				        line-height: 1.5;
+				        margin-bottom: 15px;
+				}
+			
+			
+			h2:before 
+          {
+				      content: '— ';
+			  	}
+			
+			h2:after
+          {
+			      	content: ' —';
+			  	}
+			
+			#poem h2 + p:first-letter 
+          {
+				    	float: left;
+				    	font-size: 38px;
+				    	line-height: 1;
+				    	margin: 2px 5px 0 0;
+				  }
+				
+			#poem p:first-line 
+          {
+				      font-variant: small-caps;
+				      letter-spacing: 1px;
+				  }
+			
+			#poem p:last-child
+          {
+				      margin-bottom: 30px;
+				      padding-bottom: 30px;
+				  }
+
+        #about
+          {
+               font-family:Adreena Script Demo;
+               font-weight:bold;
+               color:white;
+               font-size:25px;
+          }  
+
 
         
   	  </style>
@@ -53,6 +136,31 @@
           <div id="background2">
                 
             <center><img src="images/profPic1.png" width = 450px height= 450px></center> 
+
+            <div id="poem">
+              
+                  <h1>Therese</h1>
+                  
+                  <h2>T.M.D, 2017</h2>
+                
+                  <p>Theresa Marie Daño is her name,<br />
+                  To be successful is her aim,<br />
+                  In depth she takes her steps,<br />
+                  Including studying sedulously at USeP,</p>
+                  
+              
+                  <p>A student of Instute of Computing,<br />
+                  Adapting to the world of Programming,<br />
+                  Though her learning is still pinging,<br />
+                  The thought of her graduating, is still looping,</p>
+                 
+                  <p>Eighteen years of surviving in this world,<br />
+                     Three years feels like she's in abroad,<br />
+                     Living away without her family,<br />
+                     Just to get a degree,<br />
+                     A graduate of Bachelor of Science in Information Technology.</p>
+              
+                </div>
               
         </div>
                 
